@@ -1,0 +1,12 @@
+name: gis
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pyproj
+  - shapely
+  - rasterio
+  - geopandas
+  - fiona
+  - networkx
+prefix: /opt/miniconda3/envs/gis

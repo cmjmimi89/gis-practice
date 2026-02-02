@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.pyc
+
+# conda / virtual env
+.env
+.envs/
+.venv/
+
+# mac
+.DS_Store
+
+# outputs
+output/
