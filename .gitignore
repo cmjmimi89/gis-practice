@@ -2,7 +2,7 @@
 __pycache__/
 *.pyc
 
-# conda / virtual env
+# conda / virtual env (절대 커밋 금지)
 .env
 .envs/
 .venv/
@@ -10,5 +10,5 @@ __pycache__/
 # mac
 .DS_Store
 
-# outputs
-output/
+# outputs  ← 연습 단계에서는 커밋하므로 주석 처리
+# output/
