@@ -10,7 +10,36 @@ __pycache__/
 # mac
 .DS_Store
 
+›
 # outputs  ← 연습 단계에서는 커밋하므로 주석 처리
 # output/
 
 # 2026-02-04 병원 PC에서 Git 연속성 테스트
+
+
+
++
+
+# ---- data policy ----
+# 원본데이터(크기 큼): 커밋 금지
+data/raw/
+data/raw/**
+
+# 산출물(재생성 가능): 커밋 금지
+output/
+output/**
+
+# (선택) 임시/캐시
+*.log
+*.tmp
+.ipynb_checkpoints/
+
+
+
+# raw data (절대 커밋 금지)
+data/raw/
+data/processed
+
+# outputs
+output/
+.ipynb_checkpoints/
